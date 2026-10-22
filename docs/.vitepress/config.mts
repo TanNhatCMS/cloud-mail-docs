@@ -144,6 +144,78 @@ export default defineConfig({
                     { icon: 'telegram', link: 'https://t.me/cloud_mail_tg'}
                 ]
             }
+        },
+        vi: {
+            head: [
+                [
+                    'link',
+                    { rel: 'icon', type: 'image/x-icon', href: '/images/logo.png' }
+                ]
+            ],
+            label: 'Tiếng Việt',
+            lang: 'vi',
+            link: '/vi/',
+            themeConfig: {
+                siteTitle: 'Cloud Mail',
+                logo: '/images/logo.png',
+                nav: [
+                    { text: 'Trang chủ', link: '/vi/' },
+                    { text: 'Tài liệu', link: '/vi/preview/description' },
+                    { text: 'Ủng hộ ❤️', link: '/vi/support' },
+                    {text: 'v3.3.0', link: 'https://github.com/maillab/cloud-mail/releases'}
+                ],
+
+                sidebar: [
+                    {
+                        text: 'Giới thiệu dự án',
+                        items: [
+                            { text: 'Giới thiệu', link: '/vi/preview/description' },
+                            { text: 'Nhật ký thay đổi', link: 'https://github.com/maillab/cloud-mail/releases' },
+                        ]
+                    },
+                    {
+                        text: 'Hướng dẫn triển khai',
+                        items: [
+                            { text: 'Triển khai qua Dashboard', link: '/vi/guide/dashboard'},
+                            { text: 'Triển khai qua Action', link: '/vi/guide/action' },
+                            { text: 'Triển khai bằng dòng lệnh', link: '/vi/guide/command' },
+                            {text: 'Các biến khác', link: '/vi/guide/environment'},
+                            { text: 'Cập nhật dự án', link: '/vi/guide/update' }
+                        ]
+                    },
+                    {
+                        text: 'Cài đặt hệ thống',
+                        items: [
+                            {text: 'Gửi email', link: '/vi/system/sending'},
+                            {text: 'Lưu trữ đối tượng', link: '/vi/system/object-storage'},
+                            {text: 'Turnstile', link: '/vi/system/turnstile'},
+                            {text: 'Chuyển tiếp email', link: '/vi/system/forward'},
+                            {text: 'Oauth2', link: '/vi/oauth2/oauth2.md'}
+                        ]
+                    },
+                    {
+                        text: 'API',
+                        items: [
+                            { text: 'Tài liệu API', link: '/vi/api/api-doc' },
+                        ]
+                    },
+                    {
+                        text: 'Ủng hộ ❤️', link: '/vi/support'
+                    },
+                    {
+                        text: 'Liên hệ', link: '/vi/contact'
+                    }
+                ],
+
+                outline: {
+                    level: [2, 3]
+                },
+
+                socialLinks: [
+                    { icon: 'github', link: 'https://github.com/maillab/cloud-mail' },
+                    { icon: 'telegram', link: 'https://t.me/cloud_mail_tg'}
+                ]
+            }
         }
     },
     title: "Cloud Mail",
