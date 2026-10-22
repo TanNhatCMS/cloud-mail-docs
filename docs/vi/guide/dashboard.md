@@ -46,9 +46,9 @@
 
 ## Đăng nhập trang web
 
-1. Mở URL sau trong trình duyệt để khởi tạo cơ sở dữ liệu:
+1. Mở URL sau trong trình duyệt, nhập `jwt_secret` của bạn vào biểu mẫu (form) rồi gửi để khởi tạo cơ sở dữ liệu:
 
-   `https://<your_worker_domain>/api/init/<your_jwt_secret>`
+   `https://<your_worker_domain>/api/init`
 
 <img src="../../public/images/dashboard/10.png" class="article-img" />
 

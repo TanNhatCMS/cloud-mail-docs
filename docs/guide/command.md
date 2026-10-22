@@ -67,4 +67,4 @@ jwt_secret = ""			#登录身份令牌的密钥,随便填一串字符串
 
 4. 在Cloudflare→账户主页→你的域名→电子邮件→电子邮件路由→路由规则→Catch-all地址，编辑发送到worker
 
-5. 浏览器输入  `https://worker自定义域/api/init/你的jwt_secret`   初始化或更新数据库
+5. 浏览器打开 `https://worker自定义域/api/init`，在表单中输入 `jwt_secret` 并提交，初始化或更新数据库

@@ -41,7 +41,7 @@
 <img src="../public/images/dashboard/8.png" class="article-img" />
 
 ## 登录网站
-1. 浏览器输入 `https://你的worker自定义域/api/init/你的jwt_secret` 初始化数据库
+1. 浏览器打开 `https://你的worker自定义域/api/init`，在表单中输入你的 `jwt_secret` 并提交，初始化数据库
 <img src="../public/images/dashboard/10.png" class="article-img" />
 
 2. 浏览器输入自定义域名，<span style="color: red" class="article-img">注册管理员账号</span>，登录网站

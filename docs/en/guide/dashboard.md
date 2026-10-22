@@ -46,9 +46,9 @@
 
 ## Log In to the Website
 
-1. Open the following URL in your browser to initialize the database:
+1. Open the following URL in your browser, enter your `jwt_secret` in the form, and submit to initialize the database:
 
-   `https://<your_worker_domain>/api/init/<your_jwt_secret>`
+   `https://<your_worker_domain>/api/init`
 
 <img src="../../public/images/dashboard/10.png" class="article-img" />
 

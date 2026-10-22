@@ -67,4 +67,4 @@ jwt_secret = ""           # Khóa bí mật JWT dùng cho xác thực, điền m
    Account Home → Tên miền của bạn → Email → Email Routing → Routing Rules → Catch-all Address,
    rồi sửa rule để chuyển tiếp email tới Worker.
 
-5. Mở URL sau trong trình duyệt để khởi tạo hoặc cập nhật cơ sở dữ liệu: https://your-worker-domain/api/init/your_jwt_secret
+5. Mở URL sau trong trình duyệt, nhập `your_jwt_secret` vào biểu mẫu (form) rồi gửi để khởi tạo hoặc cập nhật cơ sở dữ liệu: https://your-worker-domain/api/init

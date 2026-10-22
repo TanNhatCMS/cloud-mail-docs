@@ -67,4 +67,4 @@ jwt_secret = ""           # JWT secret key for authentication, any random string
    Account Home → Your Domain → Email → Email Routing → Routing Rules → Catch-all Address,
    and edit the rule to forward emails to the Worker.
 
-5. Open the following URL in a browser to initialize or update the database: https://your-worker-domain/api/init/your_jwt_secret
+5. Open the following URL in a browser, enter `your_jwt_secret` in the form, and submit to initialize or update the database: https://your-worker-domain/api/init
